@@ -14,6 +14,15 @@
 		2CB1F36F1B8EDFD700F23124 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CB1F36E1B8EDFD700F23124 /* Images.xcassets */; };
 		2CB1F3721B8EDFD700F23124 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CB1F3701B8EDFD700F23124 /* LaunchScreen.xib */; };
 		2CB1F37E1B8EDFD700F23124 /* CityChoseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB1F37D1B8EDFD700F23124 /* CityChoseTests.m */; };
+		2CB1F3881B8EE23900F23124 /* city.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CB1F3871B8EE23900F23124 /* city.js */; };
+		2CB1F38B1B8EE5A100F23124 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB1F38A1B8EE5A100F23124 /* LocationViewController.m */; };
+		2CB1F38E1B8EE5EE00F23124 /* CityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB1F38D1B8EE5EE00F23124 /* CityModel.m */; };
+		2CB1F3911B8EE64D00F23124 /* CityHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB1F3901B8EE64D00F23124 /* CityHandle.m */; };
+		2CB1F3951B8EF09E00F23124 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB1F3941B8EF09E00F23124 /* CoreLocation.framework */; };
+		2CB1F39A1B8EF9B200F23124 /* ZFSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB1F3991B8EF9B200F23124 /* ZFSearchBar.m */; };
+		2CB1F39C1B8EFA5400F23124 /* good_search.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CB1F39B1B8EFA5400F23124 /* good_search.png */; };
+		2CCDDDAE1B90033800F60786 /* CityArchiveHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCDDDAD1B90033800F60786 /* CityArchiveHelper.m */; };
+		2CCE79B01B9571CB001732A7 /* CityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCE79AF1B9571CB001732A7 /* CityCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,22 @@
 		2CB1F3771B8EDFD700F23124 /* CityChoseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CityChoseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB1F37C1B8EDFD700F23124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CB1F37D1B8EDFD700F23124 /* CityChoseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityChoseTests.m; sourceTree = "<group>"; };
+		2CB1F3871B8EE23900F23124 /* city.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = city.js; sourceTree = "<group>"; };
+		2CB1F3891B8EE5A100F23124 /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
+		2CB1F38A1B8EE5A100F23124 /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
+		2CB1F38C1B8EE5EE00F23124 /* CityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityModel.h; sourceTree = "<group>"; };
+		2CB1F38D1B8EE5EE00F23124 /* CityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityModel.m; sourceTree = "<group>"; };
+		2CB1F38F1B8EE64D00F23124 /* CityHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityHandle.h; sourceTree = "<group>"; };
+		2CB1F3901B8EE64D00F23124 /* CityHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityHandle.m; sourceTree = "<group>"; };
+		2CB1F3931B8EE90900F23124 /* CItyChose.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CItyChose.pch; sourceTree = "<group>"; };
+		2CB1F3941B8EF09E00F23124 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2CB1F3981B8EF9B200F23124 /* ZFSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFSearchBar.h; sourceTree = "<group>"; };
+		2CB1F3991B8EF9B200F23124 /* ZFSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFSearchBar.m; sourceTree = "<group>"; };
+		2CB1F39B1B8EFA5400F23124 /* good_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = good_search.png; sourceTree = "<group>"; };
+		2CCDDDAC1B90033800F60786 /* CityArchiveHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityArchiveHelper.h; sourceTree = "<group>"; };
+		2CCDDDAD1B90033800F60786 /* CityArchiveHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityArchiveHelper.m; sourceTree = "<group>"; };
+		2CCE79AE1B9571CB001732A7 /* CityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityCell.h; sourceTree = "<group>"; };
+		2CCE79AF1B9571CB001732A7 /* CityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CB1F3951B8EF09E00F23124 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +89,7 @@
 		2CB1F3551B8EDFD700F23124 = {
 			isa = PBXGroup;
 			children = (
+				2CB1F3941B8EF09E00F23124 /* CoreLocation.framework */,
 				2CB1F3601B8EDFD700F23124 /* CityChose */,
 				2CB1F37A1B8EDFD700F23124 /* CityChoseTests */,
 				2CB1F35F1B8EDFD700F23124 /* Products */,
@@ -81,10 +108,12 @@
 		2CB1F3601B8EDFD700F23124 /* CityChose */ = {
 			isa = PBXGroup;
 			children = (
+				2CCE79B21B9598B6001732A7 /* Controller */,
+				2CCE79B11B957B36001732A7 /* Tool */,
+				2CCE79AD1B957041001732A7 /* View */,
+				2CB1F3921B8EE6C600F23124 /* Model */,
 				2CB1F3651B8EDFD700F23124 /* AppDelegate.h */,
 				2CB1F3661B8EDFD700F23124 /* AppDelegate.m */,
-				2CB1F3681B8EDFD700F23124 /* ViewController.h */,
-				2CB1F3691B8EDFD700F23124 /* ViewController.m */,
 				2CB1F36B1B8EDFD700F23124 /* Main.storyboard */,
 				2CB1F36E1B8EDFD700F23124 /* Images.xcassets */,
 				2CB1F3701B8EDFD700F23124 /* LaunchScreen.xib */,
@@ -96,6 +125,9 @@
 		2CB1F3611B8EDFD700F23124 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2CB1F39B1B8EFA5400F23124 /* good_search.png */,
+				2CB1F3871B8EE23900F23124 /* city.js */,
+				2CB1F3931B8EE90900F23124 /* CItyChose.pch */,
 				2CB1F3621B8EDFD700F23124 /* Info.plist */,
 				2CB1F3631B8EDFD700F23124 /* main.m */,
 			);
@@ -117,6 +149,48 @@
 				2CB1F37C1B8EDFD700F23124 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CB1F3921B8EE6C600F23124 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2CB1F38C1B8EE5EE00F23124 /* CityModel.h */,
+				2CB1F38D1B8EE5EE00F23124 /* CityModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2CCE79AD1B957041001732A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2CB1F3981B8EF9B200F23124 /* ZFSearchBar.h */,
+				2CB1F3991B8EF9B200F23124 /* ZFSearchBar.m */,
+				2CCE79AE1B9571CB001732A7 /* CityCell.h */,
+				2CCE79AF1B9571CB001732A7 /* CityCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2CCE79B11B957B36001732A7 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				2CB1F38F1B8EE64D00F23124 /* CityHandle.h */,
+				2CB1F3901B8EE64D00F23124 /* CityHandle.m */,
+				2CCDDDAC1B90033800F60786 /* CityArchiveHelper.h */,
+				2CCDDDAD1B90033800F60786 /* CityArchiveHelper.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		2CCE79B21B9598B6001732A7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2CB1F3681B8EDFD700F23124 /* ViewController.h */,
+				2CB1F3691B8EDFD700F23124 /* ViewController.m */,
+				2CB1F3891B8EE5A100F23124 /* LocationViewController.h */,
+				2CB1F38A1B8EE5A100F23124 /* LocationViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +273,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CB1F39C1B8EFA5400F23124 /* good_search.png in Resources */,
 				2CB1F36D1B8EDFD700F23124 /* Main.storyboard in Resources */,
 				2CB1F3721B8EDFD700F23124 /* LaunchScreen.xib in Resources */,
 				2CB1F36F1B8EDFD700F23124 /* Images.xcassets in Resources */,
+				2CB1F3881B8EE23900F23124 /* city.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,8 +296,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CB1F36A1B8EDFD700F23124 /* ViewController.m in Sources */,
+				2CCE79B01B9571CB001732A7 /* CityCell.m in Sources */,
+				2CCDDDAE1B90033800F60786 /* CityArchiveHelper.m in Sources */,
+				2CB1F39A1B8EF9B200F23124 /* ZFSearchBar.m in Sources */,
 				2CB1F3671B8EDFD700F23124 /* AppDelegate.m in Sources */,
 				2CB1F3641B8EDFD700F23124 /* main.m in Sources */,
+				2CB1F38B1B8EE5A100F23124 /* LocationViewController.m in Sources */,
+				2CB1F3911B8EE64D00F23124 /* CityHandle.m in Sources */,
+				2CB1F38E1B8EE5EE00F23124 /* CityModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +429,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CityChose/CityChose.pch";
 				INFOPLIST_FILE = CityChose/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CityChose/CityChose.pch";
 				INFOPLIST_FILE = CityChose/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,6 +500,7 @@
 				2CB1F3831B8EDFD700F23124 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CB1F3841B8EDFD700F23124 /* Build configuration list for PBXNativeTarget "CityChoseTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +509,7 @@
 				2CB1F3861B8EDFD700F23124 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
